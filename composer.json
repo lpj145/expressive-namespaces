@@ -1,0 +1,28 @@
+{
+  "name": "marcosadantas/expressive-namespace",
+  "description": "Service provider for expressive command with other packages command",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marcos Dantas",
+      "email": "marcos.adantas@hotmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7",
+    "marcosadantas/spacenames": "dev-master",
+    "symfony/console": "^4.1@dev",
+    "psr/container": "^1.0@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "ExpressiveNamespace\\": "src/"
+    }
+  },
+  "extras": {
+    "zf": {
+      "ConfigProvider": "ExpressiveNamespace\\ConfigProvider"
+    }
+  }
+}
