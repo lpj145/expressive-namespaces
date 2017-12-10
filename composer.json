@@ -1,7 +1,8 @@
 {
   "name": "marcosadantas/expressive-namespace",
   "description": "Service provider for expressive command with other packages command",
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
+  "version": "1.0",
   "license": "MIT",
   "authors": [
     {
@@ -12,6 +13,7 @@
   "require": {
     "php": ">=7",
     "marcosadantas/spacenames": "dev-master",
+    "marcosadantas/expressive-console": "dev-master",
     "symfony/console": "^4.1@dev",
     "psr/container": "^1.0@dev"
   },
