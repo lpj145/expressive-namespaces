@@ -7,7 +7,7 @@ class ConfigProvider
     {
         return [
             'commands' => [
-                NamespaceCommand::class
+                'namespace:change' => NamespaceCommand::class
             ]
         ];
     }
